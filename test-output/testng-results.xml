@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-14T18:57:40 IST" name="OrangeHRMTestAutomationFramworkSuite" finished-at="2024-09-14T18:58:58 IST" duration-ms="77642">
+    <groups>
+    </groups>
+    <test started-at="2024-09-14T18:57:40 IST" name="Orange HRM Test Automation" finished-at="2024-09-14T18:58:58 IST" duration-ms="77642">
+      <class name="com.orange.hrm.qa.pagesTest.EmployeePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orange.hrm.qa.pagesTest.EmployeePageTest@3b96c42e]" started-at="2024-09-14T18:57:41 IST" name="setUp" finished-at="2024-09-14T18:57:47 IST" duration-ms="6290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_hrm_employees_002()[pri:0, instance:com.orange.hrm.qa.pagesTest.EmployeePageTest@3b96c42e]" started-at="2024-09-14T18:57:47 IST" name="tc_hrm_employees_002" finished-at="2024-09-14T18:58:29 IST" duration-ms="42361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_hrm_employees_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.hrm.qa.pagesTest.EmployeePageTest@3b96c42e]" started-at="2024-09-14T18:58:29 IST" name="tearDown" finished-at="2024-09-14T18:58:30 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.hrm.qa.pagesTest.EmployeePageTest -->
+      <class name="com.orange.hrm.qa.pagesTest.PIMPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orange.hrm.qa.pagesTest.PIMPageTest@5d066c7d]" started-at="2024-09-14T18:58:30 IST" name="setUp" finished-at="2024-09-14T18:58:34 IST" duration-ms="4827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_hrm_employees_003()[pri:0, instance:com.orange.hrm.qa.pagesTest.PIMPageTest@5d066c7d]" started-at="2024-09-14T18:58:34 IST" name="tc_hrm_employees_003" finished-at="2024-09-14T18:58:58 IST" duration-ms="23092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_hrm_employees_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.hrm.qa.pagesTest.PIMPageTest@5d066c7d]" started-at="2024-09-14T18:58:58 IST" name="tearDown" finished-at="2024-09-14T18:58:58 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.hrm.qa.pagesTest.PIMPageTest -->
+    </test> <!-- Orange HRM Test Automation -->
+  </suite> <!-- OrangeHRMTestAutomationFramworkSuite -->
+</testng-results>
