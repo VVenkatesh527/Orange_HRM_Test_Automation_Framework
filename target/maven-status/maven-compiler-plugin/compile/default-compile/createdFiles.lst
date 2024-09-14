@@ -1,0 +1,12 @@
+com/dev/orange/hrm/listeners/ExtentReportListeners.class
+com/dev/orange/hrm/pageObjects/BasePage.class
+com/platzi/api/baseAPI/BaseClient.class
+com/dev/orange/hrm/utilities/Log.class
+com/dev/orange/hrm/Managers/DriverManager.class
+com/dev/orange/hrm/listeners/ExtentManager.class
+com/dev/orange/hrm/pageObjects/PIMPage.class
+com/dev/orange/hrm/listeners/ExtentReport.class
+com/dev/orange/hrm/pageObjects/HomePage.class
+com/dev/orange/hrm/utilities/tableOperator.class
+com/platzi/api/httpRequest/HttpRequest.class
+com/dev/orange/hrm/pageObjects/LoginPage.class
