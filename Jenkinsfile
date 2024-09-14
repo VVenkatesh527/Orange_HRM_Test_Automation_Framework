@@ -33,7 +33,7 @@ pipeline
         stage('Regression Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automatiom_Framework.git'
+                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automatiom_Framework'
                     bat 'mvn -D clean test'
                     
                 }
