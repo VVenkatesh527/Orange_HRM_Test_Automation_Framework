@@ -46,3 +46,25 @@
 [INFO ] 2024-09-12 23:44:46.512 [main] Log - clicked on PIM ---> PIM
 [INFO ] 2024-09-12 23:45:11.731 [main] Log - List of WebElement on PIM Page is Validated
 [INFO ] 2024-09-12 23:45:11.801 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
+[INFO ] 2024-09-14 18:57:41.023 [main] Log - I am in onStart method Orange HRM Test Automation
+[INFO ] 2024-09-14 18:57:47.161 [main] Log - Browser launched on tthe Chrome
+[INFO ] 2024-09-14 18:57:47.393 [main] Log - tc_hrm_employees_002 test is starting.
+[INFO ] 2024-09-14 18:57:52.497 [main] Log - Entered Username is --->Admin
+[INFO ] 2024-09-14 18:57:52.572 [main] Log - Entered password is --->admin123
+[INFO ] 2024-09-14 18:57:52.620 [main] Log - clicked on Login Button
+[INFO ] 2024-09-14 18:57:53.679 [main] Log - Home Page Title after login successfully--->OrangeHRM
+[INFO ] 2024-09-14 18:58:04.567 [main] Log - clicked on PIM ---> PIM
+[INFO ] 2024-09-14 18:58:29.750 [main] Log - List of WebElement on PIM Page is Validated
+[INFO ] 2024-09-14 18:58:29.754 [main] Log - tc_hrm_employees_002 test is succeed.
+[INFO ] 2024-09-14 18:58:30.017 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework//Reports//AutomationExtentReport.html
+[INFO ] 2024-09-14 18:58:34.945 [main] Log - Browser launched on tthe Chrome
+[INFO ] 2024-09-14 18:58:34.954 [main] Log - tc_hrm_employees_003 test is starting.
+[INFO ] 2024-09-14 18:58:40.029 [main] Log - Entered Username is --->Admin
+[INFO ] 2024-09-14 18:58:40.089 [main] Log - Entered password is --->admin123
+[INFO ] 2024-09-14 18:58:41.448 [main] Log - clicked on Login Button
+[INFO ] 2024-09-14 18:58:41.454 [main] Log - Logged in Successfully
+[INFO ] 2024-09-14 18:58:47.469 [main] Log - clicked on PIM feature
+[INFO ] 2024-09-14 18:58:53.020 [main] Log - clicked on Add Employee button
+[INFO ] 2024-09-14 18:58:58.046 [main] Log - tc_hrm_employees_003 test is succeed.
+[INFO ] 2024-09-14 18:58:58.103 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework//Reports//AutomationExtentReport.html
+[INFO ] 2024-09-14 18:58:58.214 [main] Log - I am in onFinish method Orange HRM Test Automation

@@ -1,38 +1,32 @@
 pipeline
 {
     agent any
-
-    tools{
-    	maven 'maven'
-        }
-
-    stages
+    tools {
+		  maven 'Maven'
+		  java 'Java'
+		    }
+    stages 
     {
-
-       stage("Deploy to QA"){
-            steps{
-                echo("deploy to qa")
-            }
-        }
-    stage ('Git Checkout') {
-       steps {
-         git branch: 'main', url: 'https://github.com/AutomationTester19/OrangeHRMTestAutomationFrameWork'
-      }
-    }
+		stage('Build') {
+    steps {
+		      echo("deployed from Dev")
+		        sh 'mvn -B -DskipTests clean package'
+		          }
+		            }          
+       
         stage('Regression Automation Test') {
             steps {
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/AutomationTester19/OrangeHRMTestAutomationFrameWork'
-                    bat 'mvn -D clean test'
+                catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automation_Framework'
+                    cd /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework/
+                    sh 'mvn clean test'
+                    
                 }
             }
         }
-
-    }
-
-    stage('Publish Extent Report'){
-            steps{
-                     publishHTML([allowMissing: false,
+         stage('Publish Extent Report'){
+            steps {
+              publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
                                   reportDir: 'build', 
