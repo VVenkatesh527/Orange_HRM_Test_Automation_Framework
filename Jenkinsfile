@@ -1,4 +1,4 @@
-pipeline 
+pipeline
 {
     agent any
     tools {
@@ -26,7 +26,7 @@ pipeline
         }
          stage('Publish Extent Report'){
             steps {
-                     publishHTML([allowMissing: false,
+              publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
                                   reportDir: 'build', 
@@ -37,4 +37,3 @@ pipeline
         }
         
     }
-}
