@@ -1,1 +1,1 @@
-# Orange_HRM_Test_Automation_FrameWork
+# Orange_HRM_Test_Automation_Framework
