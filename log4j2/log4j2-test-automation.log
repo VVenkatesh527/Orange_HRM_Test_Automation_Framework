@@ -1,70 +1,8 @@
-[INFO ] 2024-09-12 19:12:08.090 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-12 19:12:13.461 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-12 19:12:13.530 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-12 19:12:14.816 [main] Log - clicked on Login Button
-[INFO ] 2024-09-12 19:12:14.826 [main] Log - Logged in Successfully
-[INFO ] 2024-09-12 19:12:20.617 [main] Log - clicked on PIM feature
-[INFO ] 2024-09-12 19:12:26.118 [main] Log - clicked on Add Employee button
-[INFO ] 2024-09-12 19:12:31.392 [main] Log - Extent Report is generated at /home/digvijay/Downloads/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-12 19:12:42.344 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-12 19:12:47.434 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-12 19:12:47.505 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-12 19:12:48.663 [main] Log - clicked on Login Button
-[INFO ] 2024-09-12 19:12:48.669 [main] Log - Home Page Title after login successfully--->OrangeHRM
-[INFO ] 2024-09-12 19:12:59.460 [main] Log - clicked on PIM ---> PIM
-[INFO ] 2024-09-12 19:13:24.685 [main] Log - List of WebElement on PIM Page is Validated
-[INFO ] 2024-09-12 19:13:24.758 [main] Log - Extent Report is generated at /home/digvijay/Downloads/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-12 19:38:31.874 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-12 19:38:37.184 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-12 19:38:37.274 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-12 19:38:38.762 [main] Log - clicked on Login Button
-[INFO ] 2024-09-12 19:38:38.774 [main] Log - Logged in Successfully
-[INFO ] 2024-09-12 19:38:44.847 [main] Log - clicked on PIM feature
-[INFO ] 2024-09-12 19:38:50.543 [main] Log - clicked on Add Employee button
-[INFO ] 2024-09-12 19:38:55.809 [main] Log - Extent Report is generated at /home/digvijay/Downloads/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-12 19:39:07.314 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-12 19:39:12.456 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-12 19:39:12.532 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-12 19:39:13.734 [main] Log - clicked on Login Button
-[INFO ] 2024-09-12 19:39:13.744 [main] Log - Home Page Title after login successfully--->OrangeHRM
-[INFO ] 2024-09-12 19:39:24.771 [main] Log - clicked on PIM ---> PIM
-[INFO ] 2024-09-12 19:39:50.041 [main] Log - List of WebElement on PIM Page is Validated
-[INFO ] 2024-09-12 19:39:50.100 [main] Log - Extent Report is generated at /home/digvijay/Downloads/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-12 23:44:00.931 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-12 23:44:06.267 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-12 23:44:06.334 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-12 23:44:07.448 [main] Log - clicked on Login Button
-[INFO ] 2024-09-12 23:44:07.458 [main] Log - Logged in Successfully
-[INFO ] 2024-09-12 23:44:13.217 [main] Log - clicked on PIM feature
-[INFO ] 2024-09-12 23:44:18.768 [main] Log - clicked on Add Employee button
-[INFO ] 2024-09-12 23:44:24.102 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-12 23:44:29.325 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-12 23:44:34.430 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-12 23:44:34.495 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-12 23:44:34.548 [main] Log - clicked on Login Button
-[INFO ] 2024-09-12 23:44:35.714 [main] Log - Home Page Title after login successfully--->OrangeHRM
-[INFO ] 2024-09-12 23:44:46.512 [main] Log - clicked on PIM ---> PIM
-[INFO ] 2024-09-12 23:45:11.731 [main] Log - List of WebElement on PIM Page is Validated
-[INFO ] 2024-09-12 23:45:11.801 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automatiom_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-14 18:57:41.023 [main] Log - I am in onStart method Orange HRM Test Automation
-[INFO ] 2024-09-14 18:57:47.161 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-14 18:57:47.393 [main] Log - tc_hrm_employees_002 test is starting.
-[INFO ] 2024-09-14 18:57:52.497 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-14 18:57:52.572 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-14 18:57:52.620 [main] Log - clicked on Login Button
-[INFO ] 2024-09-14 18:57:53.679 [main] Log - Home Page Title after login successfully--->OrangeHRM
-[INFO ] 2024-09-14 18:58:04.567 [main] Log - clicked on PIM ---> PIM
-[INFO ] 2024-09-14 18:58:29.750 [main] Log - List of WebElement on PIM Page is Validated
-[INFO ] 2024-09-14 18:58:29.754 [main] Log - tc_hrm_employees_002 test is succeed.
-[INFO ] 2024-09-14 18:58:30.017 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-14 18:58:34.945 [main] Log - Browser launched on tthe Chrome
-[INFO ] 2024-09-14 18:58:34.954 [main] Log - tc_hrm_employees_003 test is starting.
-[INFO ] 2024-09-14 18:58:40.029 [main] Log - Entered Username is --->Admin
-[INFO ] 2024-09-14 18:58:40.089 [main] Log - Entered password is --->admin123
-[INFO ] 2024-09-14 18:58:41.448 [main] Log - clicked on Login Button
-[INFO ] 2024-09-14 18:58:41.454 [main] Log - Logged in Successfully
-[INFO ] 2024-09-14 18:58:47.469 [main] Log - clicked on PIM feature
-[INFO ] 2024-09-14 18:58:53.020 [main] Log - clicked on Add Employee button
-[INFO ] 2024-09-14 18:58:58.046 [main] Log - tc_hrm_employees_003 test is succeed.
-[INFO ] 2024-09-14 18:58:58.103 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework//Reports//AutomationExtentReport.html
-[INFO ] 2024-09-14 18:58:58.214 [main] Log - I am in onFinish method Orange HRM Test Automation
+[INFO ] 2024-09-25 09:54:42.479 [main] Log - Browser launched on tthe Chrome
+[INFO ] 2024-09-25 09:54:47.774 [main] Log - Entered Username is --->Admin
+[INFO ] 2024-09-25 09:54:47.842 [main] Log - Entered password is --->admin123
+[INFO ] 2024-09-25 09:54:49.088 [main] Log - clicked on Login Button
+[INFO ] 2024-09-25 09:54:49.096 [main] Log - Logged in Successfully
+[INFO ] 2024-09-25 09:54:54.857 [main] Log - clicked on PIM feature
+[INFO ] 2024-09-25 09:55:00.304 [main] Log - clicked on Add Employee button
+[INFO ] 2024-09-25 09:55:05.668 [main] Log - Extent Report is generated at /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_BDD_ Automation_Framework//Reports//AutomationExtentReport.html

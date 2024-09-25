@@ -13,6 +13,8 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
+import static com.dev.orange.hrm.pageObjects.LoginPage.loginOrangehrmApplication;
+
 public class EmployeePageTest extends BaseTestSuite {
 
 	
@@ -21,7 +23,7 @@ public class EmployeePageTest extends BaseTestSuite {
 	@Test
 	public void tc_hrm_employees_002() {
 
-		loginPage.loginOrangehrmApplication();
+		loginOrangehrmApplication("username","password");
 		String getTitle = driver().getTitle();
 		Assert.assertEquals(getTitle, getInputProperty("homePageTitle"));
 		Log.info("Home Page Title after login successfully--->" + getTitle);
