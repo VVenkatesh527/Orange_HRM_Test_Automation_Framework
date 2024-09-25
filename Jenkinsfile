@@ -1,48 +1,32 @@
-pipeline 
+pipeline
 {
     agent any
-    
-    tools{
-    	maven 'Maven'
-    	java 'Java'
-        }
-
+    tools {
+		  maven 'Maven'
+		  java 'Java'
+		    }
     stages 
     {
-        stage('Build') 
-        {
-            steps
-            {
-                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
-            }
-            post 
-            {
-                success
-                {
-                    junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
-                }
-            }
-        }
-        stage("Deploy to QA"){
-            steps{
-                echo("deploy to qa")
-            }
-        }
-                
+		stage('Build') {
+    steps {
+		      echo("deployed from Dev ")
+		        sh 'mvn -B -DskipTests clean package'
+		          }
+		            }          
+       
         stage('Regression Automation Test') {
             steps {
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automation_Framework.git'
-                    sh 'mvn -D clean test'
+                catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automation_Framework'
+                    cd /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework/
+                    sh 'mvn clean test'
                     
                 }
             }
         }
          stage('Publish Extent Report'){
-            steps{
-                     publishHTML([allowMissing: false,
+            steps {
+              publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
                                   reportDir: 'build', 
@@ -53,4 +37,3 @@ pipeline
         }
         
     }
-}
