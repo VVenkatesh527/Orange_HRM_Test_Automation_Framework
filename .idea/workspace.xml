@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c294f295-d587-4d76-8399-7e985e88ab6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/stepDefination/Stepdefination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FeatureFile/LoaginPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FeatureFile/OrangeHome.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/CucumberTestRunner/HomePageRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/AutomationExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/AutomationExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j2/log4j2-test-automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j2/log4j2-test-automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/Managers/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/Managers/FactoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/listeners/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/listeners/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/listeners/ExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/listeners/ExtentReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/pageObjects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/pageObjects/PIMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/orange/hrm/pageObjects/PIMPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/baseSuite/BaseTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/baseSuite/BaseTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/pagesTest/EmployeePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/pagesTest/EmployeePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/pagesTest/PIMPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/pagesTest/PIMPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Orange_HRM_Test_Automation_FramWork/Orange_HRM_Test_Automation_FramWork/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Orange_HRM_Test_Automation_FramWork/Orange_HRM_Test_Automation_FramWork/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/Managers/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/listeners/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/listeners/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/listeners/ExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/listeners/ExtentReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/listeners/ExtentReportListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/listeners/ExtentReportListeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/PIMPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/pageObjects/PIMPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/utilities/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/utilities/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/utilities/tableOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/orange/hrm/utilities/tableOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platzi/api/baseAPI/BaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/platzi/api/baseAPI/BaseClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/platzi/api/httpRequest/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/platzi/api/httpRequest/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orange/hrm/qa/baseSuite/BaseTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orange/hrm/qa/baseSuite/BaseTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orange/hrm/qa/pagesTest/EmployeePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orange/hrm/qa/pagesTest/EmployeePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orange/hrm/qa/pagesTest/PIMPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orange/hrm/qa/pagesTest/PIMPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/interviewPractice/firstRound.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/interviewPractice/firstRound.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2mVtR6MmfrrTYZ3VmapTvfd7iYB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: LoaginPage.executor": "Debug",
+    "Cucumber Java.Feature: OrangeHome.executor": "Run",
+    "Cucumber Java.Scenario: OrangeHRM login page Title Test.executor": "Coverage",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.PIMPageTest.tc_hrm_employees_003.executor": "Run",
+    "git-widget-placeholder": "venkatesh",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_BDD_ Automation_Framework/src/main/java/com/dev/orange/hrm/stepDefination",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PIMPageTest.tc_hrm_employees_003">
+    <configuration name="Feature: LoaginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureFile/LoaginPage.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Orange_HRM_Test_Automation_FramWork" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LoaginPage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: OrangeHome" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureFile/OrangeHome.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Orange_HRM_Test_Automation_FramWork" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: OrangeHome" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: OrangeHRM login page Title Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureFile/OrangeHome.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Orange_HRM_Test_Automation_FramWork" />
+      <option name="NAME_FILTER" value="^OrangeHRM login page Title Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^OrangeHRM login page Title Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: OrangeHRM login page Title Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PIMPageTest.tc_hrm_employees_003" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Orange_HRM_Test_Automation_FramWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.orange.hrm.qa.pagesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.orange.hrm.qa.pagesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.orange.hrm.qa.pagesTest.PIMPageTest" />
+      <option name="METHOD_NAME" value="tc_hrm_employees_003" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Orange_HRM_Test_Automation_FramWork" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PIMPageTest.tc_hrm_employees_003" />
+        <item itemvalue="Cucumber Java.Scenario: OrangeHRM login page Title Test" />
+        <item itemvalue="Cucumber Java.Feature: OrangeHome" />
+        <item itemvalue="Cucumber Java.Feature: LoaginPage" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c294f295-d587-4d76-8399-7e985e88ab6b" name="Changes" comment="" />
+      <created>1727173561631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727173561631</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:io.qameta.allure:allure-java-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/orange/hrm/qa/pagesTest/PIMPageTest.java</url>
+          <line>22</line>
+          <properties class="com.orange.hrm.qa.pagesTest.PIMPageTest" method="tc_hrm_employees_003">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Orange_HRM_Test_BDD__Automation_Framework$Scenario__OrangeHRM_login_page_Title_Test.ic" NAME="Scenario: OrangeHRM login page Title Test Coverage Results" MODIFIED="1727194098622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
