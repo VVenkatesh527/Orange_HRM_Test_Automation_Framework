@@ -2,8 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>Orange_HRM_Test_Automation_FramWork</artifactId>
-	<groupId>Orange_HRM_Test_Automation_FramWork</groupId>
+	<artifactId>Orange_HRM_Test_BDD_Automation_FramWork</artifactId>
+	<groupId>Orange_HRM_Test_BDD_Automation_FramWork</groupId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>jar</packaging>
@@ -12,7 +12,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.target>2.20</maven.compiler.target>
 		<aspectj.version>1.9.19</aspectj.version>
 	</properties>
 	<dependencies>
@@ -29,7 +29,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
@@ -38,12 +37,26 @@
 			<version>5.6.2</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.14.0</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.18.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>7.15.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
@@ -242,7 +255,16 @@ https://mvnrepository.com/artifact/javax.mail/javax.mail-api  -->
 						<version>$ {aspectj.version}</version>
 					</dependency>
 				</dependencies>
+
 			</plugin>
-		</plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
 	</build>
 </project>

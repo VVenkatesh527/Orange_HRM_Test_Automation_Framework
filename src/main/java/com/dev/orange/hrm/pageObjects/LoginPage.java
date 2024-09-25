@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import com.dev.orange.hrm.Managers.DriverManager;
+import com.dev.orange.hrm.Managers.FactoryManager;
 import com.dev.orange.hrm.utilities.Log;
 
-public class LoginPage extends DriverManager {
+public class LoginPage extends FactoryManager {
 
 	private static By titleLocator = By.tagName("title");
 	private static By userNameLocator = By.xpath("//input[@name='username']");
@@ -35,9 +35,8 @@ public class LoginPage extends DriverManager {
 		return driver().findElement(titleLocator);
 	}
 
-	public WebDriver loginOrangehrmApplication() {
-		String username = "";
-		String password = "";
+	public static WebDriver loginOrangehrmApplication(String username, String password) {
+
 		threadWait();
 		if (username.isBlank() || username.contains(null)) {
 			username = getInputProperty("username");

@@ -1,9 +1,9 @@
 package com.dev.orange.hrm.listeners;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.dev.orange.hrm.Managers.DriverManager;
+import com.dev.orange.hrm.Managers.FactoryManager;
 
-public class ExtentManager  extends DriverManager {
+public class ExtentManager  extends FactoryManager {
 
 	
 	private ExtentManager() {

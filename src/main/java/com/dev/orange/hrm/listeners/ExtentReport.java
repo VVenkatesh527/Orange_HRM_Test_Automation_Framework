@@ -4,11 +4,11 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.dev.orange.hrm.Managers.DriverManager;
+import com.dev.orange.hrm.Managers.FactoryManager;
 import com.dev.orange.hrm.utilities.Log;
 
 
-public class ExtentReport extends DriverManager{
+public class ExtentReport extends FactoryManager {
 
 	protected static ExtentReports extent;
 	protected static ExtentTest test;

@@ -8,10 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import com.dev.orange.hrm.Managers.DriverManager;
+import com.dev.orange.hrm.Managers.FactoryManager;
 import com.dev.orange.hrm.utilities.Log;
 
-public class PIMPage extends DriverManager {
+public class PIMPage extends FactoryManager {
 
 	public static By addEmployeeLocator = By.xpath("//a[contains(text(),'Add Employee')]");
 	public static By saveLocator = By.xpath("//button[contains(@type,'submit')]");

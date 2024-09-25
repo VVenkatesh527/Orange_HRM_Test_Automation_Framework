@@ -7,10 +7,10 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 
-import com.dev.orange.hrm.Managers.DriverManager;
+import com.dev.orange.hrm.Managers.FactoryManager;
 import com.dev.orange.hrm.utilities.Log;
 
-public class BasePage extends DriverManager{
+public class BasePage extends FactoryManager {
 	
 	
 	public static String getWebElementText(WebElement element) {
