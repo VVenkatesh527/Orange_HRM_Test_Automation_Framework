@@ -16,11 +16,9 @@ pipeline
        
         stage('Regression Automation Test') {
             steps {
-                catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automation_Framework'
-                    cd /home/digvijay/Venkatesh_WorkSapce/Orange_HRM_Test_Automation_Framework/
-                    sh 'mvn clean test'
-                    
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    git 'https://github.com/VVenkatesh527/Orange_HRM_Test_Automation_Framework.git'
+                    sh 'mvn -D clean test'    
                 }
             }
         }
